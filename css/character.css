@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'McLaren', cursive;
+    line-height: 30px;
+}
+
+header {
+    background-color: #ffa5ca;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+header img {
+    border-radius: 100%;
+    border: 10px solid #b386cd;
+    width: 200px;
+}
+
+h1, h2 {
+    font-family: 'Miltonian Tattoo', cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    color: #8b52ac;
+    margin: 40px 0 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+p.caption {
+    color: #a9a9a9;
+    font-style: italic;
+    margin-top: 0;
+}
+a {
+    color: #8b52ac;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    background-color: #ffa5ca;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #b386cd;
+    text-align: center;
+    padding: 20px;
+}
+
+.highlight-container, .highlight {
+    position: relative;
+}
+
+.highlight-container {
+    display: inline-block;
+}
+
+.highlight-container:before {
+    content: " ";
+    display: block;
+    height: 90%;
+    width: 100%;
+    margin-left: -3px;
+    margin-right: -3px;
+    position: absolute;
+    background: #b386cd;
+    transform: rotate(-2deg);
+    top: -10px;
+    left: -15px;
+    border-radius: 20% 25% 20% 24%;
+    padding: 20px;
+}
+
